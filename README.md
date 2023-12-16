@@ -21,7 +21,7 @@ Bienvenido al repositorio de mi proyecto de ventas de Juegos de distintas plataf
 1. Clona este repositorio en tu máquina local.
 
    ```bash
-   git clone 
+   git clone https://github.com/EchuMarun/react-entrega-tres.git 
 
 2. Instala las dependencias.
 
@@ -33,4 +33,4 @@ npm install
 ```bash
 npm run dev
 ```
-La aplicación estará disponible en
+La aplicación estará disponible en : http://localhost:5173/
