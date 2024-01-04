@@ -1,4 +1,3 @@
-// Footer.jsx
 import style from './Footer.module.css';
 
 const Footer = () => {

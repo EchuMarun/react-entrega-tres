@@ -1,4 +1,3 @@
-//NavBar.jsx
 import React, { useState } from 'react';
 import CartWidget from '../CartWidget/CartWidget';
 import { NavLink } from 'react-router-dom';

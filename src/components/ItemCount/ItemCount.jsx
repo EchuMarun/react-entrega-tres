@@ -1,4 +1,3 @@
-// ItemCount.jsx
 import React, { useState } from 'react';
 import styles from '../ItemCount/ItemCount.module.css';
 import Swal from 'sweetalert2';

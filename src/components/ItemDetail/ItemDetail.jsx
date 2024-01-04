@@ -1,4 +1,3 @@
-// ItemDetail.jsx
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
@@ -13,7 +12,6 @@ const ItemDetail = ({ id, nombre, img, precio, stock, category, descripcion }) =
   const { addItem } = useContext(CartContext);
 
   useEffect(() => {
-    // Simula una carga asíncrona
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2000);

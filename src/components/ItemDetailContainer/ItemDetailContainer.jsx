@@ -1,4 +1,3 @@
-//itemdetailcontainer.jsx
 import { useState ,useEffect} from "react";
 import ItemDetail from '../ItemDetail/ItemDetail';
 import style from '../ItemDetailContainer/ItemDetailContainer.module.css'
@@ -15,7 +14,7 @@ const ItemDetailContainer = () => {
         setLoading(true)
     
         const docRef = doc(db, 'productos', itemId)
-     
+
         getDoc(docRef)
             .then(response => {
                 const data = response.data()

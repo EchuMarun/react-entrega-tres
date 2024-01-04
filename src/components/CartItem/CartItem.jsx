@@ -1,4 +1,4 @@
-// CartItem.jsx
+
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 import Swal from 'sweetalert2'; 
@@ -8,7 +8,6 @@ const CartItem = ({ item }) => {
     const { removeItem } = useContext(CartContext);
 
     const handleRemoveItem = () => {
-        // Muestra SweetAlert antes de eliminar el producto
         const Toast = Swal.mixin({
             toast: true,
             position: 'top-end',
@@ -26,7 +25,6 @@ const CartItem = ({ item }) => {
             title: 'Producto eliminado'
         });
 
-        // Llama a la función para eliminar el producto después de mostrar SweetAlert
         removeItem(item.item.id);
     };
 

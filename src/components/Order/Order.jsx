@@ -1,4 +1,3 @@
-// Order.jsx
 import React, { useContext, useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
@@ -90,7 +89,6 @@ const Order = () => {
         }
       }
 
-      // Limpiar el carrito después de realizar la compra
       clearCart();
 
       MySwal.fire({
@@ -106,7 +104,7 @@ const Order = () => {
         text: 'Ocurrió un error al procesar la compra. Intente nuevamente más tarde.',
       });
     } finally {
-      setLoading(false); // Desactiva el spinner después de hacer la compra 
+      setLoading(false);
     }
   };
 

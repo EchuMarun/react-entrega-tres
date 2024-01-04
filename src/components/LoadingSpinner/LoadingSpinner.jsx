@@ -1,4 +1,3 @@
-// LoadingSpinner.js
 import style from '../LoadingSpinner/LoadingSpinner.module.css'
 import { Spinner } from 'reactstrap';
 

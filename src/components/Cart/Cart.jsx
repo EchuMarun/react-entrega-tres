@@ -1,4 +1,4 @@
-// Cart.jsx
+
 import { useContext, useState, useEffect } from 'react';
 import { CartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
@@ -11,12 +11,9 @@ const Cart = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => { 
-    // Simula una carga asíncrona
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2000);
-
-    // Limpia el temporizador al desmontar el componente
     return () => clearTimeout(timer);
   }, []);
 
